@@ -22,6 +22,15 @@ section {
   background: white;
   padding: 40px;
   margin: 40px;
+  border-radius: 0rem;
+  transition: 0.3s;
+}
+
+section:hover {
+  border-radius: 2rem;
+  margin:  40px 50px;
+  border: 0.5rem solid;
+
 }
 
 #about img {
